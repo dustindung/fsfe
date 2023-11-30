@@ -11,7 +11,7 @@ server.listen(3000, function () {
   console.log("server listen on port 3000");
 });
 
-/** Begin websocks */
+/** Begin websocks **/
 const WebSocketServer = require("ws").Server;
 
 const wss = new WebSocketServer({ server: server });
